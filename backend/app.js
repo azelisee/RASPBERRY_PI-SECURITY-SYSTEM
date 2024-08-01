@@ -14,7 +14,7 @@ app.use(cors());
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Failed to connect to MongoDB', err));*/
 
-mongoose.connect('mongodb+srv://az98:mike2011@cluster0.dhvpft4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://az98:mike2011@cluster0.dhvpft4.mongodb.net/security_system?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Failed to connect to MongoDB', err));
 
